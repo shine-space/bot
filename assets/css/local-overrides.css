@@ -614,7 +614,7 @@ html.product-scroll-bg-enabled
 .p-about--inline > .l-main_ttl .p-about-scrollAttention .arw {
   width: 7px;
   height: 21px;
-  background: url("/assets/image/cmn/icon_vArw.svg") center / contain no-repeat;
+  background: url("../image/cmn/icon_vArw.svg") center / contain no-repeat;
   transition: transform 0.45s cubic-bezier(0.25, 0.46, 0.45, 0.94);
 }
 
@@ -649,7 +649,7 @@ html.product-scroll-bg-enabled
   padding: clamp(36px, 6vw, 60px);
   overflow: hidden;
   isolation: isolate;
-  background: url("/assets/image/ab.webp") center / cover no-repeat;
+  background: url("../image/ab.webp") center / cover no-repeat;
 }
 
 .p-about--inline.is-about-motion-ready .p-about_mes2 .ttl {
