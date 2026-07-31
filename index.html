@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>星尘智能</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, width=device-width">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="星尘智能">
+    <meta name="keywords" content="星尘智能,AI机器人,智能机器人,人形机器人,机器人公司,人工智能,通用机器人,具身智能,服务机器人">
+    <meta property="og:description" content="星尘智能（Astribot）于2022年底在深圳成立，我们的愿景是让数十亿人拥有AI机器人助理，我们的使命是推动人机共存、共创、共赢">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="星尘智能">
+    <meta property="og:title" content="星尘智能">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="星尘智能">
+    <meta name="twitter:description" content="星尘智能">
+    <meta name="theme-color" content="#000000">
+    <link rel="preload" href="/assets/loading.webm?v=20260731-webm-1" as="video" type="video/webm">
+    <link rel="stylesheet" href="/assets/css/bot.css?v=20260731-dead-code-1">
+    <link rel="stylesheet" href="/assets/css/local-overrides.css?v=20260731-css-cleanup-1">
+  </head>
+  <body>
+
+    <div class="l-loading">
+      <canvas class="bg"></canvas>
+      <div class="l-loadingMedia" aria-hidden="true">
+        <svg class="l-loadingMediaFallback" viewBox="0 0 60 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M30.3279 0C30.7998 0.331016 31.1218 0.586203 31.4529 1.07048C33.5172 4.08988 35.5347 7.16788 37.5666 10.2087L49.3608 27.7582C51.9323 31.5189 54.4809 35.2955 57.0063 39.0875C57.5985 39.9746 59.7061 43.0195 59.9996 43.791C60.0092 44.1775 59.8501 44.5166 59.5581 44.776C55.0534 48.7781 48.6742 48.6876 43.345 46.4993C40.5945 45.3697 37.9069 44.257 35.3787 42.659C29.4266 38.8968 22.4534 34.8878 15.1323 36.3101C10.6331 37.1372 6.98601 39.4168 3.84788 42.7538C2.86457 43.7593 2.07753 45.1275 1.0163 45.9899C0.909474 46.0766 0.495741 46.0781 0.346082 46.0818C0.230737 46.084 0.115367 46.0849 0 46.0844V45.3613L21.8387 12.4468L27.0133 4.66796C27.8123 3.46613 29.4213 0.913403 30.3279 0Z" fill="#7545FE"/>
+        </svg>
+        <video class="js-loadingVideo" autoplay muted loop playsinline preload="auto">
+          <source src="/assets/loading.webm?v=20260731-webm-1" type="video/webm">
+        </video>
+      </div>
+      <div class="pct">
+        <p class="inner f_en_min_rg">0%</p>
+      </div>
+      <div class="text">
+        <p class="inner f_en_go_rg"><span>穿</span> <span>越</span> <span>苦</span> <span>旅</span> <span>,</span> <span>以</span> <span>达</span> <span>星</span> <span>尘</span></p>
+      </div>
+    </div>
+
+    <div class="l-mainContent">
+      <canvas></canvas>
+    </div>
+
+    <div class="l-productScrollBg" aria-hidden="true">
+      <div class="inner" data-product-bg="0" style="background-image:url('/assets/image/products/item/t1.png')"></div>
+      <div class="inner" data-product-bg="1" style="background-image:url('/assets/image/products/item/s1.png')"></div>
+    </div>
+
+    <div class="l-productMovieDetail">
+      <div class="bg"></div>
+      <canvas></canvas>
+      <div class="play-btn js-movie-play-btn" data-id="0">
+        <div class="play-btn-icon"></div>
+      </div>
+      <div class="play-btn js-movie-play-btn" data-id="1">
+        <div class="play-btn-icon"></div>
+      </div>
+      <a class="l-closeBtn js-cmnHover"><div class="inner"></div></a>
+      <div class="info">
+        <div class="scrollBar">
+          <div class="bg"></div>
+          <a class="bar js-cmnHover"></a>
+        </div>
+        <div class="inner">
+          <div class="js-info-list" data-id="0">
+            <div class="ttl">
+              <p class="b f_en_min_rg">星尘智能T1</p>
+            </div>
+            <ul class="process-list">
+              <li class="f_en_min_rg">全能型AI机器人，定义操作新高度</li>
+            </ul>
+            <table class="list f_jp_rg">
+              <tr>
+                <td class="f_en_go_rg">单臂自由度</td><td class="f_en_min_rg">7</td>
+              </tr>
+              <tr>
+                <td class="f_en_go_rg">单臂额定负载（平举）</td><td class="f_en_min_rg">5 kg</td>
+              </tr>
+              <tr>
+                <td class="f_en_go_rg">末端最高速度</td><td class="f_en_min_rg">≥10 m/s</td>
+              </tr>
+              <tr>
+                <td class="f_en_go_rg">末端最大加速度</td><td class="f_en_min_rg">≈100 m/s²</td>
+              </tr>
+              <tr>
+                <td class="f_en_go_rg">末端重复精度</td><td class="f_en_min_rg">±0.1 mm</td>
+              </tr>
+              <tr>
+                <td class="f_en_go_rg">身高</td><td class="f_en_min_rg">170 cm</td>
+              </tr>
+              <tr>
+                <td class="f_en_go_rg">体重</td><td class="f_en_min_rg">80 kg</td>
+              </tr>
+              <tr>
+                <td class="f_en_go_rg">臂展</td><td class="f_en_min_rg">194 cm</td>
+              </tr>
+              <tr>
+                <td class="f_en_go_rg">续航</td><td class="f_en_min_rg">4~6 小时 支持插电</td>
+              </tr>
+              <tr>
+                <td class="f_en_min_rg"><a href="#" class="js-cmnHover" target="_blank">了解更多</a></td>
+              </tr>
+            </table>
+          </div>
+          <div class="js-info-list" data-id="1">
+            <div class="ttl">
+              <p class="b f_en_min_rg">星尘智能S1</p>
+            </div>
+            <ul class="process-list">
+              <li class="f_en_min_rg">全能型AI机器人，定义操作新高度</li>
+            </ul>
+            <table class="list f_jp_rg">
+              <tr>
+                <td class="f_en_go_rg">整机身高</td><td class="f_en_min_rg">170cm</td>
+              </tr>
+              <tr>
+                <td class="f_en_go_rg">整机重量</td><td class="f_en_min_rg">80kg</td>
+              </tr>
+              <tr>
+                <td class="f_en_go_rg">双臂最大展幅</td><td class="f_en_min_rg">194cm</td>
+              </tr>
+              <tr>
+                <td class="f_en_go_rg">整机形态</td><td class="f_en_min_rg">人形上半身 + 一体式轮式移动底盘</td>
+              </tr>
+              <tr>
+                <td class="f_en_go_rg"> </td><td class="f_en_min_rg"><a href="#" class="js-cmnHover" target="_blank">了解更多</a></td>
+              </tr>
+            </table>
+          </div>
+
+        </div>
+      </div>
+      <div class="l-productMovieModal">
+        <a class="l-closeBtn-bold  js-cmnHover"><div class="inner"></div></a>
+        <video class="l-localProductVideo" controls autoplay muted loop playsinline preload="metadata"></video>
+      </div>
+    </div>
+
+    <div class="l-page">
+      <div class="inner">
+
+        <div id="products-section" class="p-products">
+          <div class="l-main_ttl js-block js-firstview js-fix" data-fix="1">
+            <div class="inner">
+              <h2 class="ttl js-mainTtl js-txtMainMot">星尘智能 具身机器人</h2>
+              <h1 class="sub">
+                <p class="js-txtMot"><span>自由创变 多场景首选</span></p>
+              </h1>
+              <a class="l-scrollAttention js-cmnHover js-item" data-x="200" data-y="0">
+                <div class="icon">
+                  <canvas class="line" width="240" height="240"></canvas>
+                  <div class="arw_wrapper">
+                    <div class="arw"></div>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+
+          <div class="p-products_content-movie js-block js-fix">
+            <div class="inner">
+              <div class="info is-no13">
+                <p class="inner0 js-item js-attention" data-x="-200" data-y="0">T1</p>
+                <div class="inner1">
+                  <p class="cate js-item" data-x="200" data-y="0">Product</p>
+                </div>
+              </div>
+            </div>
+            <div class="list">
+              <div class="item t1-product-card">
+                <div class="left t1-product-summary">
+                  <p class="name1 f_en_min_rg">星尘智能 T1</p>
+                  <p class="t1-product-price f_en_go_rg">￥8.99 w起</p>
+                </div>
+                <div class="right t1-product-actions">
+                  <button class="t1-product-action js-cmnHover js-pdetailMovieBtn" type="button" data-id="0" data-img="/assets/image/products/item/t1.png" data-mov="/assets/movie/t1.mp4">
+                    <span>了解详情</span>
+                  </button>
+                  <a class="t1-product-action t1-product-action--primary js-cmnHover js-t1-consult" href="#contact">
+                    <span>立即咨询</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="p-products_content-movie js-block js-fix">
+            <div class="inner">
+              <div class="info is-no14">
+                <p class="inner0 js-item js-attention" data-x="-200" data-y="0">S1</p>
+                <div class="inner1">
+                  <p class="cate js-item" data-x="200" data-y="0">Product</p>
+                </div>
+              </div>
+            </div>
+            <div class="list">
+              <div class="item t1-product-card">
+                <div class="left t1-product-summary">
+                  <p class="name1 f_en_min_rg">星尘智能 S1</p>
+                </div>
+                <div class="right t1-product-actions">
+                  <button class="t1-product-action js-cmnHover js-pdetailMovieBtn" type="button" data-id="1" data-img="/assets/image/products/item/s1.png" data-mov="/assets/movie/s1.mp4">
+                    <span>了解详情</span>
+                  </button>
+                  <a class="t1-product-action t1-product-action--primary js-cmnHover js-t1-consult" href="#contact">
+                    <span>立即咨询</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        <section class="p-about p-about--inline" aria-labelledby="about-title">
+          <div class="l-main_ttl js-block js-firstview js-fix" data-fix="1">
+            <div class="inner">
+              <h2 id="about-title" class="ttl js-mainTtl js-txtMainMot">关于我们</h2>
+              <div class="sub">
+                <p class="js-txtMot"><span>星尘智能自研 DFAI 架构</span></p>
+                <p class="js-txtMot"><span>领跑具身智能人形机器人赛道</span></p>
+              </div>
+              <a class="p-about-scrollAttention js-cmnHover" href="#about-card" aria-label="查看关于我们的图片介绍">
+                <div class="icon">
+                  <canvas class="line" width="240" height="240"></canvas>
+                  <div class="arw_wrapper">
+                    <div class="arw"></div>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+
+          <div id="about-card" class="p-about_mes2 js-block" data-fric="100" tabindex="-1">
+            <div class="inner">
+              <div class="ttl js-caption js-selectText">
+                <div class="bg js-bg"></div>
+                <p class="text1 js-text"><span class="is-en f_en_min_rg">星尘智能（Astribot）于2022年底在深圳成立，我们的愿景是让数十亿人拥有AI机器人助理，我们的使命是推动人机共存、共创、共赢</span></p>
+                <p class="text1 js-text"><span class="is-jp f_jp_rg">公司首创面向AI（Design for AI，DFAI）的软硬件一体化系统架构，将“AI智能”与“最强操作”深度耦合，在具身智能数据获取上取得关键突破，</span>
+                <span class="is-en f_en_go_rg">让机器人能像人一样学习、思考和劳动，与人流畅智能交互，使用人的工具和设备、帮人完成枯燥、困难或危险的任务，奠定了独特技术优势。</span>
+                </p>
+              </div>
+            </div>
+          </div>
+
+        </section>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="l-fScroll none">
+      <a class="inner js-cmnHover">
+        <div class="line">
+          <div class="inner"></div>
+        </div>
+        <div class="text f_en_go_bd js-txtMot"><span>SCROLL</span></div>
+      </a>
+    </div>
+
+    <canvas class="l-particle"></canvas>
+
+    <div class="l-contact none js-fix is-tmp">
+      <a href="#" class="btn js-cmnHover">
+        <div class="inner">
+          <div class="bg"></div>
+          <p class="text">商务合作</p>
+          <div class="icon"></div>
+        </div>
+      </a>
+      <p class="desc js-txtMot"><span>携手赋能具身智能行业落地</span></p>
+    </div>
+
+    <div class="l-intro">
+      <p class="ttl f_en_min_rg">星尘智能</p>
+      <p class="desc f_en_go_rg js-txtMot"><span>领先的AI及机器人公司，让智能通用机器人走进千家万户</span></p>
+    </div>
+
+    <div class="l-transition"></div>
+
+    <div class="l-pager f_en_go_bd">
+      <a class="item js-cmnHover js-products-nav" href="#products-section" data-page="0">
+        <div class="text">
+          <p class="name">星尘产品</p>
+          <p class="no">星尘产品</p>
+        </div>
+        <div class="line"></div>
+      </a>
+      <a class="item js-cmnHover" data-page="0">
+        <div class="text">
+          <p class="name">新闻动态</p>
+          <p class="no">新闻动态</p>
+        </div>
+        <div class="line"></div>
+      </a>
+      <a class="item js-cmnHover is-placeholder" href="#">
+        <div class="text">
+          <p class="name">招贤纳士</p>
+          <p class="no">招贤纳士</p>
+        </div>
+        <div class="line"></div>
+      </a>
+      <a class="item js-cmnHover is-placeholder js-about-nav" href="#about-title">
+        <div class="text">
+          <p class="name">关于我们</p>
+          <p class="no">关于我们</p>
+        </div>
+        <div class="line"></div>
+      </a>
+    </div>
+
+    <a class="l-fixui_logo f_en_go_bd js-cmnHover js-cmnUi"><span><img src="/assets/image/logo.svg"></span></a>
+    <a class="l-fixui_contact f_en_go_bd js-cmnHover js-cmnUi" href="m#"><span>En</span></a>
+    <a class="l-fixui_sound f_en_go_bd js-cmnHover js-cmnUi">
+      <div class="inner">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+      </div>
+    </a>
+
+    <div class="js-height"></div>
+
+    <script src="/assets/js/performance-config.js?v=20260731-dead-code-1"></script>
+    <script src="/assets/js/loading-video.js?v=20260731-webm-1"></script>
+    <script src="/assets/js/product-preview-autoplay.js?v=20260731-muted-autoplay-1"></script>
+    <script src="/assets/js/local-product-player.js?v=20260731-muted-autoplay-1"></script>
+    <script src="/assets/js/placeholder-nav.js?v=20260731-t1-arrow-offset-1"></script>
+    <script src="/assets/js/inline-about.js?v=20260731-css-cleanup-1"></script>
+    <script src="/assets/js/bot.js?v=20260731-about-restore-1"></script>
+    <script src="/assets/js/product-scroll-background.js?v=20260731-dead-code-1"></script>
+    <script src="/assets/js/loading-autoplay.js?v=20260731-about-restore-3"></script>
+
+  </body>
+</html>
