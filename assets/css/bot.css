@@ -989,7 +989,7 @@ body.en .is-jp{
   left: auto;
   bottom: auto;
   right: 10.416%;
-  background-image: url("/assets/image/cmn/arw.svg");
+  background-image: url("../image/cmn/arw.svg");
 }
 .l-contact .desc{
   font-size: 10px;
@@ -1252,7 +1252,7 @@ body.en .is-jp{
   width: 7px;
   height: 21px;
   background-repeat: no-repeat;
-  background-image: url("/assets/image/cmn/icon_vArw.svg");
+  background-image: url("../image/cmn/icon_vArw.svg");
 }
 .l-scrollAttention > .text{
   font-size: 0.520833333333333vw;
@@ -1694,7 +1694,7 @@ body.en .is-jp{
 .p-products_content-movie > .list > .item .icon{
   width: 20px;
   height: 7px;
-  background-image: url("/assets/image/cmn/arw.svg");
+  background-image: url("../image/cmn/arw.svg");
 }
 .p-products_content-movie > .list > .item .left,
 .p-products_content-movie > .list > .item .right{
@@ -2195,7 +2195,7 @@ body.en .is-jp{
   right: 9%;
   width: 17px;
   height: 6px;
-  background-image: url("/assets/image/cmn/arw.svg");
+  background-image: url("../image/cmn/arw.svg");
 }
 .l-productMovieDetail.is-bscroll > .info{
   overflow: scroll;
