@@ -224,6 +224,19 @@ textarea,
   padding-bottom: 5%;
 }
 
+.l-fixui_sound {
+  cursor: pointer;
+}
+
+.l-fixui_sound > .inner > .line {
+  transition: transform 0.25s ease, opacity 0.25s ease;
+}
+
+.l-fixui_sound.is-paused > .inner > .line {
+  opacity: 0.55;
+  transform: scaleY(0.16) !important;
+}
+
 @media screen and (max-width: 768px) {
   .l-pager {
     gap: 12px;
