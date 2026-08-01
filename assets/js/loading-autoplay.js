@@ -46,11 +46,6 @@
       soundAnimator._soundLine = window.jQuery();
     }
 
-    window.setTimeout(function enableDefaultSound() {
-      var soundButton = document.querySelector(".l-fixui_sound");
-      if (soundButton) {
-        soundButton.click();
-      }
-    }, 0);
+    document.dispatchEvent(new CustomEvent("site:loading-complete"));
   };
 })();
