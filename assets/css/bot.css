@@ -375,7 +375,7 @@ body.en .is-jp{
   justify-content: center;
 }
 .l-loading > .pct > .inner{
-  font-size: 1.2vw;
+  font-size: 1vw;
   letter-spacing: 0.02em;
   color: var(--text);
 }
@@ -2084,7 +2084,7 @@ body.en .is-jp{
 }
 
 .l-productMovieDetail > .info > .inner .process-list li{
-  font-size: 1.5625vw;
+  font-size: 1.4vw;
   margin-bottom: 0.64em;
 }
 .l-productMovieDetail > .info > .inner .process-list li:last-child{
@@ -2106,7 +2106,7 @@ body.en .is-jp{
   border-bottom: 1px solid #292b35;
 }
 .l-productMovieDetail > .info > .inner .list tr td:first-child{
-  font-size: 1.04vw;
+  font-size: 1.02vw;
   width: 41%;
 }
 .l-productMovieDetail > .info > .inner .list tr td:last-child{
