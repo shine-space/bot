@@ -98,6 +98,8 @@
   function openDetail(trigger) {
     if (!detail) return;
     detailTrigger = trigger;
+    closeMobileMenu(false);
+    document.documentElement.classList.add("is-product-detail-open");
     detail.setAttribute("aria-hidden", "false");
     trigger.setAttribute("aria-expanded", "true");
     setProductInfo(trigger.getAttribute("data-id"));
@@ -115,6 +117,7 @@
 
   function closeDetail() {
     if (!detail) return;
+    document.documentElement.classList.remove("is-product-detail-open");
     detail.setAttribute("aria-hidden", "true");
     setPageInert(false);
     document.querySelectorAll(".js-pdetailMovieBtn[aria-expanded]").forEach(function (button) {
@@ -128,6 +131,8 @@
   function openVideo(trigger) {
     if (!videoModal) return;
     videoTrigger = trigger;
+    closeMobileMenu(false);
+    document.documentElement.classList.add("is-product-video-open");
     videoModal.setAttribute("aria-hidden", "false");
     window.setTimeout(function () {
       var close = videoModal.querySelector(".l-closeBtn-bold");
@@ -137,6 +142,7 @@
 
   function closeVideo() {
     if (!videoModal) return;
+    document.documentElement.classList.remove("is-product-video-open");
     videoModal.setAttribute("aria-hidden", "true");
     if (videoTrigger && document.contains(videoTrigger)) {
       window.setTimeout(function () { videoTrigger.focus(); }, 100);
