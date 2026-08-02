@@ -917,7 +917,7 @@ html.product-scroll-bg-enabled
 
   .l-fixui_logo {
     z-index: 44;
-    padding-top: 6vh;
+    padding-top: 5vh;
     padding-left: 3vh;
   }
   .l-fixui_sound{
@@ -951,7 +951,7 @@ html.product-scroll-bg-enabled
 
   .l-mobileMenuToggle {
     position: fixed;
-    top: 3.5vh;
+    top: 2.5vh;
     right: 1vh;
     z-index: 44;
     display: block;
@@ -1322,7 +1322,7 @@ html.product-scroll-bg-enabled
   }
 
   body {
-    --mobile-section-title-size: 9vw;
+    --mobile-section-title-size: 10vw;
   }
 
   .l-intro > .ttl,
