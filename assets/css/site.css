@@ -11,6 +11,14 @@
   --site-font-family: Inter, -apple-system, BlinkMacSystemFont, "PingFang SC",
     "Hiragino Sans GB", "noto sans", "Microsoft YaHei", "Helvetica Neue",
     Helvetica, Arial, sans-serif;
+  --section-supporting-text-size: clamp(13px, 1.05vw, 16px);
+}
+
+.l-intro > .desc,
+#products-section > .l-main_ttl > .inner > .sub,
+.p-about--inline > .l-main_ttl .sub,
+.l-contact .desc {
+  font-size: var(--section-supporting-text-size) !important;
 }
 
 .visually-hidden {
@@ -124,13 +132,14 @@ textarea {
   --loading-mark-shift-y: clamp(3px, 0.4vw, 5px);
   --loading-mark-scale-y: 1.1;
   position: absolute;
+  top: 50%;
   left: 50%;
-  bottom: calc(50% + clamp(12px, 4vw, 16px));
+  bottom: auto;
   z-index: 2;
   width: clamp(160px, 18vw, 260px);
   aspect-ratio: 480 / 365;
   pointer-events: none;
-  transform: translateX(-50%);
+  transform: translate(-50%, -50%);
 }
 
 .l-loading > .l-loadingMedia > .l-loadingMediaFallback,
@@ -171,6 +180,7 @@ textarea {
 }
 
 .l-loading > .pct {
+  display: none !important;
   z-index: 3;
 }
 
@@ -373,6 +383,10 @@ textarea,
 }
 
 @media screen and (max-width: 768px) {
+  :root {
+    --section-supporting-text-size: 3.1vw;
+  }
+
   .l-pager {
     gap: 12px;
   }
@@ -631,7 +645,7 @@ html.product-scroll-bg-enabled
 .p-about--inline > .l-main_ttl .sub {
   position: static;
   margin-top: 36px;
-  font-size: clamp(12px, 1.55vw, 12px);
+  font-size: clamp(14px, 1.55vw, 1em);
   line-height: 1.8;
   letter-spacing: 0.03em;
   color:  var(--text);
@@ -881,7 +895,7 @@ html.product-scroll-bg-enabled
 .p-about--inline .p-about_mes2 .text1 {
   position: relative;
   z-index: 1;
-  font-size: clamp(12px, 5vw, 14px);
+  font-size: clamp(14px, 1.55vw, 1em);
   line-height: 1.6;
 }
 

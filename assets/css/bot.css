@@ -228,7 +228,7 @@ body.en .is-jp{
   overflow: hidden;
 }
 .js-txtMot span{
-  font-size: 12px;
+  font-size: 1em;
   display: inline-block;
 }
 .js-txtMainMot span{
@@ -590,7 +590,7 @@ body.en .is-jp{
   left: 0px;
   bottom: auto;
   right: auto;
-  font-size: 12px;
+  font-size: 0.86em;
   letter-spacing: 0.5em;
   pointer-events: none;
 }
@@ -996,7 +996,7 @@ body.en .is-jp{
   color: var(--text);
   text-align: center;
   letter-spacing: 0.3em;
-  margin-top: 5em;
+  margin-top: 2em;
 }
 .l-caption-a{
   position: relative;
