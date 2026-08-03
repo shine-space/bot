@@ -1,0 +1,1 @@
+!function(){"use strict";if(!((window.devicePixelRatio||1)<=1))try{Object.defineProperty(window,"devicePixelRatio",{configurable:!0,get:function(){return 1}})}catch(e){}}();
