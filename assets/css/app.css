@@ -3053,6 +3053,24 @@ z-index: 1;
 font-size: clamp(14px, 1.55vw, 1em);
 line-height: 1.6;
 }
+@media screen and (min-width: 769px) {
+.p-products > .l-main_ttl + .p-products_content-movie,
+.p-products_content-movie + .p-products_content-movie,
+.p-about--inline {
+margin-top: 0;
+}
+.p-about--inline > .l-main_ttl,
+.p-about--inline .p-about_mes2 {
+min-height: 100vh;
+}
+.p-about--inline .p-about_mes2 {
+display: flex;
+align-items: center;
+}
+.p-about--inline .p-about_mes2 > .inner {
+width: 100%;
+}
+}
 @media screen and (max-width: 768px) {
 .p-about--inline {
 --about-edge: 24px;
