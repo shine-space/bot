@@ -1,1 +1,0 @@
-!function(){"use strict";var e=document.querySelector(".l-scrollAttention canvas.line"),n=document.querySelector(".p-about-scrollAttention canvas.line");if(e&&n){var t=n.getContext("2d");!function i(){t.clearRect(0,0,n.width,n.height),t.drawImage(e,0,0,n.width,n.height),requestAnimationFrame(i)}()}}();
