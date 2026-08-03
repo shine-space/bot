@@ -25,8 +25,11 @@
     <link rel="icon" href="favicon.ico?v=20260802-1" sizes="32x32" type="image/x-icon">
     <link rel="shortcut icon" href="favicon.ico?v=20260802-1" type="image/x-icon">
     <link rel="preload" href="assets/loading.webm" as="video" type="video/webm">
-    <link rel="stylesheet" href="assets/css/bot.css">
-    <link rel="stylesheet" href="assets/css/site.css?v=20260802-supporting-text-1">
+    <link rel="preload" href="assets/js/bot.js" as="script" fetchpriority="high">
+    <link rel="preload" href="assets/image/bg/intro.jpg" as="image">
+    <link rel="preload" href="assets/image/bg/products.jpg" as="image">
+    <link rel="preload" href="assets/image/bg/light.jpg" as="image">
+    <link rel="stylesheet" href="assets/css/app.css?v=20260803-performance-1">
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
@@ -372,21 +375,9 @@
       <source src="assets/sound/bgm.mp3" type="audio/mpeg">
     </audio>
 
-    <script src="assets/js/deployment-base.js"></script>
-    <script src="assets/js/performance-config.js"></script>
-    <script src="assets/js/accessibility.js?v=20260802-mobile-menu-6"></script>
-    <script src="assets/js/placeholder-nav.js?v=20260802-mobile-t1-center-4"></script>
-    <script src="assets/js/loading-video.js"></script>
-    <script src="assets/js/background-audio.js"></script>
-    <script src="assets/js/product-preview-autoplay.js"></script>
-    <script src="assets/js/local-product-player.js"></script>
-    <script src="assets/js/inline-about.js"></script>
-
+    <script src="assets/js/runtime-before.js?v=20260803-performance-1"></script>
     <script src="assets/js/bot.js"></script>
-
-    <script src="assets/js/product-scroll-background.js"></script>
-    <script src="assets/js/loading-autoplay.js"></script>
-    <script src="assets/js/scroll-arrow-sync.js"></script>
+    <script src="assets/js/runtime-after.js?v=20260803-performance-1"></script>
 
   </body>
 </html>
