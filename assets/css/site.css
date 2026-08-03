@@ -180,7 +180,10 @@ textarea {
 }
 
 .l-loading > .pct {
-  display: none !important;
+  top: calc(50% + clamp(73px, 8vw, 116px));
+  height: auto;
+  display: block;
+  text-align: center;
   z-index: 3;
 }
 
